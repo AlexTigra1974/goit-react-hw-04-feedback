@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap'); */
+
+.btn {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  background-color: #6d68ebe0;
+  padding: 10px 20px;
+  border: solid #0066cc07 2px;
+  box-shadow: rgb(75, 119, 163) 0px 0px 31px 1px;
+  border-radius: 50px;
+  transition: 200ms;
+  transform: translateY(0);
+
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+  transition: 200ms;
+  padding: 10px 30px;
+  transform: translateY(-5px);
+  background-color: #fff;
+  color: #6d68ebe0;
+  border: solid 2px #6d68ebe0;
+}
